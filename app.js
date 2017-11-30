@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 
 app.post('/search', function(req, res){
     // after requiring nightmare, we create a browser
-    var nightmareBrowser = Nightmare({ show: true })
+    var nightmareBrowser = Nightmare({ show: false })
 
     // open multiple browsers if you want to scrape multiple sites simultaneously
     // var anothernightmareBrowser = Nightmare({ show: true })
